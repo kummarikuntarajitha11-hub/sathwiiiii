@@ -1,0 +1,72 @@
+Microsoft Windows [Version 10.0.26200.8875]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\jntuh>E:
+
+E:\>dircd 24VD1A0554
+'dircd' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\>cd 24VD1A0554
+
+E:\24VD1A0554>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 60C1-1716
+
+ Directory of E:\24VD1A0554
+
+07/28/2026  10:01 AM    <DIR>          .
+07/16/2026  10:18 AM               775 reg.html
+07/28/2026  10:00 AM               186 sum.java
+               2 File(s)            961 bytes
+               1 Dir(s)  59,512,516,608 bytes free
+
+E:\24VD1A0554>E:\Projects\24VD1A0554
+The system cannot find the path specified.
+
+E:\24VD1A0554>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+E:\24VD1A0554>git add .
+
+E:\24VD1A0554>git add reg.html
+
+E:\24VD1A0554>git commit -m "initial commit"
+[main fdb7d72] initial commit
+ 1 file changed, 9 deletions(-)
+ delete mode 100644 sum.java.txt
+
+E:\24VD1A0554>git clone https://github.com/kummarikuntarajitha11-hub/sathwiiiii.git
+Cloning into 'sathwiiiii'...
+warning: You appear to have cloned an empty repository.
+
+E:\24VD1A0554>git remote add origin https://github.com/kummarikuntarajitha11-hub/sathwiiiii.git
+error: remote origin already exists.
+
+E:\24VD1A0554>git remote -v
+origin  https://github.com/kummarikuntarajitha11-hub/sathwika.git (fetch)
+origin  https://github.com/kummarikuntarajitha11-hub/sathwika.git (push)
+
+E:\24VD1A0554>git remote set-url origin https://github.com/kummarikuntarajitha11-hub/sathwiiiii.git
+
+E:\24VD1A0554>git remote -v
+origin  https://github.com/kummarikuntarajitha11-hub/sathwiiiii.git (fetch)
+origin  https://github.com/kummarikuntarajitha11-hub/sathwiiiii.git (push)
+
+E:\24VD1A0554>git push -u origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 1.19 KiB | 607.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/kummarikuntarajitha11-hub/sathwiiiii.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\24VD1A0554>
+E:\24VD1A0554>^A
